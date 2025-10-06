@@ -66,7 +66,7 @@ const authorsArray=Object.values(author);
 return authorsArray;
 }
 fetchAuthorsSithArticles().then(authors=>{
-    console.log(JSON.stringify(authors,null,2));
+    console.log(JSON.stringify(authors,null, 3));
 });
 
 
